@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Roboto&display=swap");
+
+body {
+  max-width: 98%;
+  margin: auto;
+  background-color: #985065;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+a {
+  color: rgb(246, 250, 250);
+  font-size: 19px;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: darkgray;
+}
+a:visited {
+  color: #f5f2f2;
+}
+.avatar:hover {
+  transform: scale(1.1);
+}
+.avatar2:hover {
+  transform: scale(1.1);
+}
+.avatar3:hover {
+  transform: scale(1.1);
+}
+.avatar4:hover {
+  transform: scale(1.1);
+}
+
+.h1 {
+  color: #f5f2f2;
+  font-size: 25px;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  max-width: 50%;
+  margin: auto;
+}
+
+.card h2 {
+  color: #f5f2f2;
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+}
+.info {
+  color: #32181a;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.container {
+  max-width: 100;
+  margin: auto;
+}
+.card {
+  padding: 15px, 20px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+  color: #32181a;
+}
+.social {
+  background: grey;
+  padding: 15px;
+}
+.box div {
+  float: left;
+  margin: 0;
+  max-width: 25%;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+  align-items: center;
+  display: flex;
+}
+.avatar {
+  padding: 10px;
+}
+.avatar2 {
+  padding: 10px;
+}
+.avatar3 {
+  padding: 10px;
+}
+.avatar4 {
+  padding: 10px;
+}
+.timetable {
+  font-size: 23px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  /*padding-right: 50px;*/
+}
+.line1 {
+  margin: auto;
+  padding: 40px;
+}
+.list {
+  padding: 0 20px;
+  list-style: none;
+}
+.list2 {
+  padding: 0 20px;
+  list-style: none;
+}
+.podval {
+  background: #32181a;
+  padding: 20px;
+  color: #f5f2f2;
+}
+.podval h2 {
+  font-size: 25px;
+  font-weight: lighter;
+  color: #985065;
+}
+
+.form {
+  padding: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  margin-bottom: 40px;
+  width: 25%;
+  background-color: #c7c4d0a4;
+  /*border-radius: 20px;*/
+  font-size: 19px;
+  color: #32181a;
+}
+h4 {
+  font-size: 25px;
+}
+.table {
+  margin: auto;
+  width: 20%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.button {
+  background: #32181a;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+
+  /*width: 120px;
+  height: 33px;
+  font-size: 17px;*/
+  font-family: inherit;
+  margin-top: 20px;
+}
+.button:hover {
+  opacity: 0.9;
+}
+.form-group label {
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #060606;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+  text-align: left ;
+
+}
